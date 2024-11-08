@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.filtersContainer {
+  border: 1px solid rgb(207, 229, 204);
+  background-color: rgb(233, 242, 233);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.singleFilterContainer {
+  background-color: rgb(243, 254, 243);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+/* Countries Component */
+.countriesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+/* Country Component */
+.singleCountryContainer {
+  border: 2px solid rgb(223, 183, 231);
+  width: 400px;
+  box-shadow: 3px 5px rgb(223, 183, 231);;
+}
+.countryName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(250, 245, 251);
+}
+.countryName img {
+  height: 4rem;
+}
+.countryName h3 {
+  margin: 0 3rem;
+}
+.countryInfo {
+  padding: 1rem;
+}
+.countrySingleInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
